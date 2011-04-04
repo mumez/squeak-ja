@@ -1,4 +1,4 @@
-base := 'ftp://swikis.ddo.jp/SqueakDevJa/translations/'.
+base := 'http://squeak-ja.sourceforge.jp/translations'.
 version := #('3.8' '3.9' '3.10' '4.1' '4.2') detect: [:each | '*',each,'*' match: Smalltalk version] ifNone: ['3.8'].
 listFileName := 'TransList{1}-ja.txt' format: {version}.
 trans := Array readFrom: ((base, '/', listFileName) asUrl retrieveContents content).
