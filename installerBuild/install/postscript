@@ -1,0 +1,7 @@
+| readme |
+readme := 'ReadMeOLD.txt'.
+(#('4.2') detect: [:each | '*',each,'*' match: Smalltalk version] ifNone: []) ifNotNil: [readme := 'ReadMe.txt'].
+
+StringHolder new
+		acceptContents: ((self memberNamed: 'ReadMe.txt') contents convertFromWithConverter: (UTF8TextConverter new));
+		openLabel: 'Read Me'.

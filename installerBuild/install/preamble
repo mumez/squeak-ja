@@ -1,0 +1,9 @@
+[
+ Smalltalk at: #CurrentJEISarInstaller put: self.
+ CurrentJEISarInstaller fileInMemberNamed: 'patchInstaller.cs'.
+ CurrentJEISarInstaller fileInMemberNamed: 'japaneseEnvironmentInstaller.cs'.
+ CurrentJEISarInstaller fileInMemberNamed: 'jaExInstaller.cs'.
+] ensure: [
+ Smalltalk removeKey: #CurrentJEISarInstaller
+].
+!
