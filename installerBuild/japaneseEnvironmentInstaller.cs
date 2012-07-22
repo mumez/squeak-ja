@@ -1,6 +1,6 @@
 
 "Install font"
-translationFile := 'ja-20110330.translation'.
+translationFile := 'ja-20120722.translation'.
 fontFile := 'uJapaneseFont.out'.
 formTranslator := 'formTranslator_ja.bin'.
 
