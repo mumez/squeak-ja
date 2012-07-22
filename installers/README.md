@@ -1,0 +1,1 @@
+英語版のSqueakにインストールするには、InstallJa20yymmdd.sarファイルをSqueakの画面にDrag&Dropします。
