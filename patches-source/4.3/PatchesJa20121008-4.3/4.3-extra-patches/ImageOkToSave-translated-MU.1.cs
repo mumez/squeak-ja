@@ -1,0 +1,3 @@
+'From Squeak4.3 of 22 December 2011 [latest update: #11860] on 8 October 2012 at 3:03:24 pm'!"Change Set:		ImageOkToSave-translated-MUDate:			8 October 2012Author:			Masashi UmezawaAdded #translated to SmalltalkImage>>okayToSave"!!SmalltalkImage methodsFor: 'snapshot and quit' stamp: 'mu 10/8/2012 15:00'!okayToSave	| wasCog isCog |	[wasCog := self imageFormatVersionFromFile allMask: 1]		on: Error do: [:ignore | "probably save-as to non-existing file" ^ true ].	isCog := Smalltalk isRunningCog.	^(isCog not or: [wasCog]) or: [		self confirm: 'Images saved under Cog cannot be opened on an interpreter again!!Really save?' translated]! !"Open readme"
+
+!
