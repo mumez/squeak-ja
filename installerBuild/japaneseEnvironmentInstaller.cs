@@ -15,7 +15,9 @@ StrikeFontSet installExternalFontFileName6: fontFile encoding: JapaneseEnvironme
 
 stream := FileStream oldFileNamed: formTranslator.
 [NaturalLanguageFormTranslator loadFormsFrom: stream]
-	ensure: [stream close].
+    ensure: [stream close].
+
+CurrentStVersion >= 4.4 ifTrue: [InternalTranslator mergeLegacyTranslators].
 
 Locale currentPlatform: (Locale isoLanguage: 'ja').
 StrikeFont setupDefaultFallbackFont.

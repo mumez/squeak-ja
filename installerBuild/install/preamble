@@ -1,9 +1,15 @@
-[
+[ | table currentVer |
+ table := ByteString new: 256 withAll: Character space.
+ 1 to: 256 do: [:idx | idx > 64 ifFalse: [table byteAt: idx put: idx - 1]].  
+ currentVer := (Smalltalk version copy translateWith: table) withBlanksTrimmed asNumber.
  Smalltalk at: #CurrentJEISarInstaller put: self.
+ Smalltalk at: #CurrentStVersion put: currentVer.
+
  CurrentJEISarInstaller fileInMemberNamed: 'patchInstaller.cs'.
  CurrentJEISarInstaller fileInMemberNamed: 'japaneseEnvironmentInstaller.cs'.
  CurrentJEISarInstaller fileInMemberNamed: 'jaExInstaller.cs'.
 ] ensure: [
- Smalltalk removeKey: #CurrentJEISarInstaller
+ Smalltalk removeKey: #CurrentJEISarInstaller.
+ Smalltalk removeKey: #CurrentStVersion.
 ].
 !
