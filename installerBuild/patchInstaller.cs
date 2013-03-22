@@ -1,6 +1,6 @@
 "Extra Patches"
 base := 'patches'.
-version := #('3.8' '3.9' '3.10' '4.1' '4.2' '4.3') detect: [:each | '*',each,'*' match: Smalltalk version] ifNone: ['3.8'].
+version := #('3.8' '3.9' '3.10' '4.1' '4.2' '4.3' '4.4') detect: [:each | '*',each,'*' match: Smalltalk version] ifNone: ['3.8'].
 (version beginsWith: '3.') ifTrue: [(Smalltalk confirm: 'Install localization patches?') ifFalse: [^nil]].
 
 patchListFileName := 'PatchList{1}-ja.txt' format: {version}.
