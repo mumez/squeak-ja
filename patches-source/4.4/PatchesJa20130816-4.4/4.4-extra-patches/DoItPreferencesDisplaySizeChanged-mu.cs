@@ -1,0 +1,1 @@
+'From Squeak4.4 of 31 December 2012 [latest update: #12327] on 13 July 2013 at 11:18:32 pm'!"Change Set:		DoItPreferencesDisplaySizeChanged-muDate:			13 July 2013Author:			Masashi UmezawaPerform ""Preferences displaySizeChanged"" for resetting cached flap fonts"!Preferences displaySizeChanged.	!
