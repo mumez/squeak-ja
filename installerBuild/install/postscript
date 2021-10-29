@@ -1,6 +1,6 @@
 | readme |
-readme := 'ReadMeOLD.txt'.
-(#('4.2' '4.3' '4.4') detect: [:each | '*',each,'*' match: Smalltalk version] ifNone: []) ifNotNil: [readme := 'ReadMe.txt'].
+readme := 'ReadMe.txt'.
+(#('3.8' '3.9' '3.10' '4.1') detect: [:each | '*',each,'*' match: Smalltalk version] ifNone: []) ifNotNil: [readme := 'ReadMeOLD.txt'].
 
 StringHolder new
 		acceptContents: ((self memberNamed: readme ) contents convertFromWithConverter: (UTF8TextConverter new));
