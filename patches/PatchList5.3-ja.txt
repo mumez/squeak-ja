@@ -10,8 +10,6 @@
 'PatchesJa20130322-4.4.sar'
 'PatchesJa20130713-4.3.sar'
 'PatchesJa20130713-5.3.sar'
-
-    'PatchesJa20130729-4.3.sar'
-    'PatchesJa20130816-4.4.sar'
-    'PatchesJa20130824-4.4.sar'
+'PatchesJa20130816-4.4.sar'
+'PatchesJa20130824-4.4.sar'
 )
