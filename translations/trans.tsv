@@ -14,6 +14,72 @@ Preference Wizard	プリファレンス・ウィザード
 Themes & Colors	テーマとカラー
 Flat Widget Look	フラットな見た目
 
+Squeak Help	Squeak ヘルプ
+Release Notes	リリースノート
+About Squeak	Squeakについて
 
+expand all	全てを開く
+
+choose set of preferences...	既存のプリファレンスを選ぶ
+debug it (D)	式をデバッグ (D)
+spy on it	式を計測
+redo (Z)	やり直し (Z)
+find and replace ...	検索して置換...
+do/replace again (j)	繰り返し適用 (j)
+
+Please confirm:	確認:
+Please Confirm	確認
+Input Requested	記入してください
+
+browse revisions	リビジョンを見る
+show all comments	すべてのコメントを見る
+copy reference (C)	メソッド参照をコピー (C)
+find test case		テストケースを探す
+find tested item	テスト対象を探す
+invert level selection (I)	レベル選択を逆にする (I)
+remove from this browser (d)	このブラウザから削除 (d)
+print out	プリントアウト
+toggle category selection (Y)	カテゴリ選択を切り替え (Y)
+delete Monticello load change sets	Monticelloパッケージ由来のチェンジセットを削除
+Are you sure you want to delete all change sets due to Monticello package loads?	すべてのMonticelloパッケージ由来のチェンジセットが削除されますがよろしいですか?
+current change set is a Monticello load change set.\Please select some other change set before deleting Monticello load change sets.	選択中のチェンジセットはMonticelloパッケージ由来のものです。\別のチェンジセットを選択してください。
+
+Import Font	フォントを埋め込む
+Link Font	フォントを参照
+
+Port:	ポート番号:
+
+demote to bottom	一番下に表示
+
+search history	履歴を検索
+inspect working copy	ワーキングコピーをインスペクト
+change environment...	Environmentの変更...
+check all packages for changes	更新のあるパッケージを調べる
+
+add new dependency...	依存パッケージを追加
+remove this dependency	依存パッケージを削除
+update this dependency from image	依存パッケージをイメージから更新
+update this dependency from repositories	依存パッケージをリポジトリから更新
+
+more ...	さらに...
+browse details...	詳細をブラウズ...
+
+Welcome to Squeak	Squeakへようこそ
+Configure	設定を開始
+Skip	後で
+
+Email	Eメール
+Browse cache	キャッシュをブラウズ
+Copy from cache	キャッシュからコピー
+Edit Release	リリース情報を編集
+Force download into cache	キャッシュをダウンロードで強制上書き
+Create new Release	新規リリースを作成
+Upgrade All	すべてをアップグレード
+Copy list	一覧をコピー
+Save filters	フィルタを保存
+Upgrade all installed packages	インストールされたパッケージをアップグレード
+Upgrade all installed packages confirming each	インストールされたパッケージをアップグレード(確認あり)
+Put list in paste buffer	一覧をクリップボードにコピー
+Save filters as default	フィルタをデフォルトとして補zん
 
 
