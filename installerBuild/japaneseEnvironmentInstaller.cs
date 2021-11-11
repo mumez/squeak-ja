@@ -24,7 +24,6 @@ StrikeFont setupDefaultFallbackFont.
 
 "Set defaults"
 Locale switchToID: (LocaleID isoLanguage: 'ja').
-Preferences restoreDefaultFonts.
 StrikeFont setupDefaultFallbackFont.
 Project current updateLocaleDependents.
 
