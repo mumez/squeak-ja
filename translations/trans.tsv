@@ -65,9 +65,9 @@ update this dependency from repositories	依存パッケージをリポジトリ
 more ...	さらに...
 browse details...	詳細をブラウズ...
 
-Welcome to Squeak	Squeakへようこそ
-Configure	設定を開始
-Skip	後で
+#Welcome to Squeak	Squeakへようこそ
+#Configure	設定を開始
+#Skip	後で
 
 Email	Eメール
 Browse cache	キャッシュをブラウズ
@@ -81,6 +81,15 @@ Save filters	フィルタを保存
 Upgrade all installed packages	インストールされたパッケージをアップグレード
 Upgrade all installed packages confirming each	インストールされたパッケージをアップグレード(確認あり)
 Put list in paste buffer	一覧をクリップボードにコピー
-Save filters as default	フィルタをデフォルトとして補zん
+Save filters as default	フィルタをデフォルトとして保存
 
+You dropped a file. Please choose a service:	このファイルをどうするか、選んでください:
+edit as text file	テキストファイルとして編集
+
+New Directory	ディレクトリの作成
+Save Image as new name...	名前を付けてイメージを保存...
+
+Choose Directory	ディレクトリを選択
+Choose File	ファイルを選択
+Save As File	ファイルを保存
 
