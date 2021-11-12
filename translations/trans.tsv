@@ -29,6 +29,9 @@ do/replace again (j)	繰り返し適用 (j)
 
 Please confirm:	確認:
 Please Confirm	確認
+Please Choose	選択してください
+Please choose	選択してください
+Please choose:	選択してください:
 Input Requested	記入してください
 Note	注意
 
@@ -92,4 +95,27 @@ Save Image as new name...	名前を付けてイメージを保存...
 Choose Directory	ディレクトリを選択
 Choose File	ファイルを選択
 Save As File	ファイルを保存
+
+Name of package:	パッケージ名:
+New name of package:	パッケージ名:
+Repository type:	リポジトリの種類:
+revert (x)	リバート
+browse origin	オリジナルをブラウズ
+Reparent	親を変更
+Clear all filters	すべてのフィルタを解除
+
+remove from RecentSubmissions	最近の変更から削除
+set size of recent history...	最近の変更の数を指定...
+
+Tally It	計測
+senders of    (n)	センダ (n)
+implementors of    (m)	インプリメンタ (m)
+references    (r)	参照 (r)
+assignments    (a)	代入 (a)
+remove method (x) 	メソッドを削除 (x)
+copy bug report to clipboard	クリップボードにバグレポートをコピー
+
+pen trails...	ペンの種類...
+copy layout properties	レイアウトのプロパティをコピー
+change cell gap...	セル間の隙間を変更...
 
