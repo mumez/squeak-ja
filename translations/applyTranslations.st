@@ -9,3 +9,9 @@ FileStream fileNamed: 'trans.tsv' do: [:str |
 		]
 	]
 ].
+
+"
+FileStream newFileNamed: 'ja-20211111.translation' do: [:str | 
+	NaturalLanguageTranslator current fileOutOn: str	
+]
+"
