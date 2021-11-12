@@ -1,4 +1,4 @@
-base := 'http://squeak-ja.sourceforge.jp/translations'.
+base := 'https://raw.githubusercontent.com/mumez/squeak-ja/master/translations'.
 version := #('3.8' '3.9' '3.10' '4.1' '4.2' '4.3' '4.4' '5.3') detect: [:each | '*',each,'*' match: Smalltalk version] ifNone: ['4.4'].
 listFileName := 'TransList{1}-ja.txt' format: {version}.
 trans := Array readFrom: ((base, '/', listFileName) asUrl retrieveContents content).
