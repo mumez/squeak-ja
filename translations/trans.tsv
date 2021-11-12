@@ -123,3 +123,8 @@ pen trails...	ペンの種類...
 copy layout properties	レイアウトのプロパティをコピー
 change cell gap...	セル間の隙間を変更...
 
+Yes, overwrite	上書きする
+No, don''t overwrite	上書きしない
+Overwrite ALL files	すべてを上書き
+Cancel operation	キャンセル
+
