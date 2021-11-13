@@ -128,3 +128,32 @@ No, don''t overwrite	上書きしない
 Overwrite ALL files	すべてを上書き
 Cancel operation	キャンセル
 
+fileOut selections...	選択をファイルアウト...
+select unchanged definitions	変更のない定義を選択
+select methods for extant classes	現存するクラスのメソッドを選択
+select changes with contents matching	内容が一致する変更を選択
+select all before	ここから前のすべてを選択
+
+Soft Shadows	ソフトな影
+Soft shadows	ソフトな影
+Hard Shadows	ハードな影
+Hard shadows	ハードな影
+
+Rounded Window/Dialog/Menu Look		ウィンドウ・ダイアログ・メニューの角を丸く
+Rounded Button/Scrollbar Look	ボタンとスクロールバーの角を丸く
+
+Increase Font Size	フォントを大きく
+Decrease Font Size	フォントを小さく
+
+Set High-DPI Mode	高DPIモードに
+Set Etoys Mode	Etoysモードに
+Restore UI Theme Background	背景をレストア
+Edit Current UI Theme...	UIテーマを編集...
+
+Default fixed font...	デフォルトの固定長フォント...
+default fixed font...	デフォルトの固定長フォント...
+
+demo/hi-dpi mode	デモ・高DPIモードに
+print current font choices	現在のフォント設定を表示
+refresh this menu	メニューをリフレッシュ
+
