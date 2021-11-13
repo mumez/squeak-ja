@@ -1,5 +1,5 @@
-base := 'http://squeak-ja.sourceforge.jp/patches'.
-version := #('3.8' '3.9' '3.10' '4.1' '4.2' '4.3' '4.4') detect: [:each | '*',each,'*' match: Smalltalk version] ifNone: ['3.8'].
+base := 'https://raw.githubusercontent.com/mumez/squeak-ja/master/patches'.
+version := #('3.8' '3.9' '3.10' '4.1' '4.2' '4.3' '4.4' '5.3') detect: [:each | '*',each,'*' match: Smalltalk version] ifNone: ['4.4'].
 patchListFileName := 'PatchList{1}-ja.txt' format: {version}.
 patches := Array readFrom: ((base, '/', patchListFileName) asUrl retrieveContents content).
 installed := (Smalltalk at: #PatchesJa ifAbsentPut: [OrderedCollection new]) asArray.

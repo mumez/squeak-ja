@@ -1,1 +1,26 @@
-﻿<<日本語環境インストーラ (開発者用)>>"英語メニューが好きな人は以下をDo it(日本語は使えます)."    Locale switchToID: (LocaleID isoLanguage: 'en').    Locale currentPlatform: (Locale isoLanguage: 'ja')."最新のパッチをインストール"    'http://squeak-ja.sourceforge.jp/patches/PatchInstaller-ja.st' asUrl retrieveContents content readStream fileInAnnouncing: 'パッチを適用中'."最新の翻訳ファイルをロード"    'http://squeak-ja.sourceforge.jp/translations/TransInstaller-ja.st' asUrl retrieveContents content readStream fileInAnnouncing: '翻訳ファイルをロード中...'.<<Japanese Environment (for Developers)>>"Do it" below 2 lines, if you like English menu (but Japanese environment).    Locale switchToID: (LocaleID isoLanguage: 'en').    Locale currentPlatform: (Locale isoLanguage: 'ja').To install latest patches.    'http://squeak-ja.sourceforge.jp/patches/PatchInstaller-ja.st' asUrl retrieveContents content readStream fileInAnnouncing: 'loadnig patches...'.To load latest Japanese translations.    'http://squeak-ja.sourceforge.jp/translations/TransInstaller-ja.st' asUrl retrieveContents content readStream fileInAnnouncing: 'loadnig translations...'.---[:masashi | ^umezawa] "Masashi Umezawa<ume@blueplane.jp>"
+﻿<<日本語環境インストーラ (開発者用)>>
+
+"英語メニューが好きな人は以下をDo it(日本語は使えます)."
+    Locale switchToID: (LocaleID isoLanguage: 'en').
+    Locale currentPlatform: (Locale isoLanguage: 'ja').
+
+"最新のパッチをインストール"
+    'https://raw.githubusercontent.com/mumez/squeak-ja/master/patches/PatchInstaller-ja.st' asUrl retrieveContents content readStream fileInAnnouncing: 'パッチを適用中'.
+
+"最新の翻訳ファイルをロード"
+    'https://raw.githubusercontent.com/mumez/squeak-ja/master/translations/TransInstaller-ja.st' asUrl retrieveContents content readStream fileInAnnouncing: '翻訳ファイルをロード中...'.
+
+<<Japanese Environment (for Developers)>>
+
+"Do it" below 2 lines, if you like English menu (but Japanese environment).
+    Locale switchToID: (LocaleID isoLanguage: 'en').
+    Locale currentPlatform: (Locale isoLanguage: 'ja').
+
+To install latest patches.
+    'https://raw.githubusercontent.com/mumez/squeak-ja/master/patches/PatchInstaller-ja.st' asUrl retrieveContents content readStream fileInAnnouncing: 'loadnig patches...'.
+
+To load latest Japanese translations.
+    'https://raw.githubusercontent.com/mumez/squeak-ja/master/translations/TransInstaller-ja.st' asUrl retrieveContents content readStream fileInAnnouncing: 'loadnig translations...'.
+
+---
+[:masashi | ^umezawa] "Masashi Umezawa<ume@blueplane.jp>"
