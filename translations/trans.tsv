@@ -170,3 +170,7 @@ New safely-available packages	安定利用可能になったパッケージ
 Installed packages	インストール済パッケージ
 Published packages	正式公開されたパッケージ
 
+run all tests	すべてのテストを実行
+run test	テストを実行
+debug test	テストをデバッグ
+
