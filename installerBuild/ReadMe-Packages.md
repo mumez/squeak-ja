@@ -12,8 +12,8 @@ Squeak日本語版には、JaExPackageUtilForSqueakというユーティリテ�
 
 ### Tekka
 
-[Tekka](http://smalltalkhub.com/#!/~tomooda/Tekka)
-は[小田さん](http://smalltalkhub.com/#!/~tomooda)が開発したSqueakのみで簡易な日本語入力を可能にするライブラリです。他の日本語入力メソッドと異なり、モードが存在しません。ctrl-j (Macではcmd-j)によって変換を行うことができます。
+[Tekka](https://github.com/tomooda/tekka)
+は[小田さん](https://github.com/tomooda)が開発したSqueakのみで簡易な日本語入力を可能にするライブラリです。他の日本語入力メソッドと異なり、モードが存在しません。ctrl-j (Macではcmd-j)によって変換を行うことができます。
 VMのバージョンが合わないなど、何らかの理由でネィティブIMEによる日本語入力が難しい場合に代替として使うことができます。
 
 詳しくはhttp://squeaksource.blueplane.jp/Tekka.htmlのWikiページを参照してください。
