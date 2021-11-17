@@ -174,3 +174,66 @@ run all tests	すべてのテストを実行
 run test	テストを実行
 debug test	テストをデバッグ
 
+Commit	コミット
+Pull	プル
+Push	プッシュ
+Fetch	フェッチ
+Branch	ブランチ
+Settings	設定
+Feedback	フィードバック
+Clear	クリア
+
+Working copy of 	ワーキングコピー: 
+Rename project	プロジェクトの名前を変更
+Remove project	プロジェクトを削除
+Add or remove packages	パッケージの追加・削除
+Set package storage format...	保存フォーマットの指定...
+Add remote	リモートの追加
+Manage remotes	リモートの管理
+Edit credentials for project	クレデンシャルの編集
+Edit project-level git user name/email	ユーザ・メールアドレスの編集
+
+Browse working copy	ワーキングコピーをブラウズ
+Explore SquotWorkingCopy	SquotWorkingCopyをエクスプロア
+
+Add new project	プロジェクトの追加
+Clone project	プロジェクトのクローン
+New project...	新規のプロジェクト
+
+Browse in selected version	選択中のバージョンをブラウズ
+Checkout	チェックアウト
+Merge	マージ
+Explore	エクスプロア
+(not in working copy)	(ワーキングコピー外)
+
+Switch to this commit on a new branch	このコミットを適用した新たなブランチを作成
+Cherry-pick to 	チェリーピック: 
+Checkout objects	オブジェクトのチェックアウト
+Merge objects	オブジェクトのマージ
+Compare with parent commit	親コミットと比較
+Compare with next selected commit	次に選択したコミットと比較
+Compare with working copy	ワーキングコピーと比較
+
+Tag commit	タグのコミット
+
+Switch to this branch	このブランチに移動
+Switch, but keep uncommitted changes	変更を残したままブランチを移動
+Create a new branch and switch to it	ブランチを作成して移動
+
+Discard uncommitted changes	コミットしていない変更を破棄
+
+Merge into 	このブランチにマージ: 
+Set upstream branch	アップストリームブランチを設定
+
+Remove upstream branch at the remote	リモートのアップストリームブランチを削除
+
+self-update...	自動更新...
+set self-update branch...	自動更新のブランチを設定
+
+
+drag out	ドラッグ可能
+drop in	ドロップ可能
+
+Type selector:	セレクタを入力
+
+
