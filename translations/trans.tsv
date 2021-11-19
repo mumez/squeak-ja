@@ -238,3 +238,12 @@ Type selector:	セレクタを入力
 
 Apply	適用
 
+inspect variables	変数をインスペクト
+reset variables	変数をリセット
+<yes> automatically create variable declaration	<yes> 変数を自動で定義	
+<no> automatically create variable declaration	<yes> 変数を自動で定義	
+<yes> create textual references to dropped morphs	<yes> ドロップしたモーフの文字列表現を作成
+<no> create textual references to dropped morphs	<no> ドロップしたモーフの文字列表現を作成
+<on> syntax highlighting	<on> シンタックスハイライト
+<off> syntax highlighting	<on> シンタックスハイライト
+
