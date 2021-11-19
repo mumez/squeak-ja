@@ -5,7 +5,8 @@ trans := Array readFrom: ((base, '/', listFileName) asUrl retrieveContents conte
 installs := (Smalltalk at: #TransJa ifAbsentPut: [OrderedCollection new]) asArray.
 trans := trans difference: installs.
 trans do: [:each | | conts |
-	conts := (base, '/', each) asUrl retrieveContents contents contents convertFromWithConverter: (UTF8TextConverter new).
+	conts := (base, '/', each) asUrl retrieveContents contents contents.
+	(version asNumber < 5) ifTrue: [conts := conts convertFromWithConverter: (UTF8TextConverter new)].
 	(NaturalLanguageTranslator localeID: (LocaleID isoString: 'ja')) loadFromStream: conts readStream.
 	TransJa add: each.
 ].

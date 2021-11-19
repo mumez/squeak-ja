@@ -1,17 +1,16 @@
-
-"Install font"
+"Extracting"
 translationFile := 'ja-20211111.translation'.
-fontFile := 'uJapaneseFont.out'.
 formTranslator := 'formTranslator_ja.bin'.
-
+fontFile := 'uJapaneseFont.out'.
 CurrentJEISarInstaller extractMember: translationFile.
-CurrentJEISarInstaller extractMember: fontFile.
 CurrentJEISarInstaller extractMember: formTranslator.
+CurrentJEISarInstaller extractMember: fontFile.
 
-(NaturalLanguageTranslator isoLanguage: 'ja') loadFromFileNamed: translationFile.
+jpLocale := Locale isoLanguage: 'ja'.
+
+"Install Translations"
+(NaturalLanguageTranslator localeID: jpLocale localeID) loadFromFileNamed: translationFile.
 (Smalltalk at: #TransJa ifAbsentPut: [OrderedCollection new]) add: translationFile.
-
-StrikeFontSet installExternalFontFileName6: fontFile encoding: JapaneseEnvironment leadingChar encodingName: #Japanese textStyleName: #DefaultMultiStyle.
 
 stream := FileStream oldFileNamed: formTranslator.
 [NaturalLanguageFormTranslator loadFormsFrom: stream]
@@ -19,13 +18,15 @@ stream := FileStream oldFileNamed: formTranslator.
 
 CurrentStVersion >= 4.4 ifTrue: [InternalTranslator mergeLegacyTranslators].
 
-Locale currentPlatform: (Locale isoLanguage: 'ja').
-StrikeFont setupDefaultFallbackFont.
+"Install bitmap font"
+StrikeFontSet installExternalFontFileName6: fontFile encoding: JapaneseEnvironment leadingChar encodingName: #Japanese textStyleName: #DefaultMultiStyle.
 
 "Set defaults"
-Locale switchToID: (LocaleID isoLanguage: 'ja').
-StrikeFont setupDefaultFallbackFont.
+Locale currentPlatform: jpLocale.
+Locale switchToID: jpLocale localeID.
+StrikeFont setupDefaultFallbackFont. 
 Project current updateLocaleDependents.
+Flaps disableGlobalFlaps: false.
 
 "Clean up"
 targetDir := FileDirectory default.
