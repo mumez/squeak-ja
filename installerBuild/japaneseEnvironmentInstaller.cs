@@ -6,8 +6,10 @@ CurrentJEISarInstaller extractMember: translationFile.
 CurrentJEISarInstaller extractMember: formTranslator.
 CurrentJEISarInstaller extractMember: fontFile.
 
+jpLocale := Locale isoLanguage: 'ja'.
+
 "Install Translations"
-(NaturalLanguageTranslator isoLanguage: 'ja') loadFromFileNamed: translationFile.
+(NaturalLanguageTranslator localeID: jpLocale localeID) loadFromFileNamed: translationFile.
 (Smalltalk at: #TransJa ifAbsentPut: [OrderedCollection new]) add: translationFile.
 
 stream := FileStream oldFileNamed: formTranslator.
@@ -20,11 +22,11 @@ CurrentStVersion >= 4.4 ifTrue: [InternalTranslator mergeLegacyTranslators].
 StrikeFontSet installExternalFontFileName6: fontFile encoding: JapaneseEnvironment leadingChar encodingName: #Japanese textStyleName: #DefaultMultiStyle.
 
 "Set defaults"
-jpLocale := Locale isoLanguage: 'ja' isoCountry: 'JP'.
 Locale currentPlatform: jpLocale.
-Locale switchToID: jpLocale.
+Locale switchToID: jpLocale localeID.
 StrikeFont setupDefaultFallbackFont. 
 Project current updateLocaleDependents.
+Flaps disableGlobalFlaps: false.
 
 "Clean up"
 targetDir := FileDirectory default.
