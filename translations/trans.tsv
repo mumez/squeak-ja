@@ -254,3 +254,6 @@ refresh view	再表示
 add key	キーを追加
 rename key	キーの名前を変更
 
+border style	輪郭線のスタイル
+Expand or Contract	拡大または縮小
+
