@@ -247,3 +247,13 @@ reset variables	変数をリセット
 <on> syntax highlighting	<on> シンタックスハイライト
 <off> syntax highlighting	<on> シンタックスハイライト
 
+inspect key	キーをインスペクト
+references	参照
+senders of this key	このキーのセンダ
+refresh view	再表示
+add key	キーを追加
+rename key	キーの名前を変更
+
+border style	輪郭線のスタイル
+Expand or Contract	拡大または縮小
+
