@@ -1,5 +1,5 @@
 "JaEx utilities"
-matched := #('4.1' '4.2' '4.3' '4.4' '5.3') detect: [:each | '*',each,'*' match: Smalltalk version] ifNone: [].
+matched := #('4.1' '4.2' '4.3' '4.4' '5.3' '6.0') detect: [:each | '*',each,'*' match: Smalltalk version] ifNone: [].
 matched isNil ifTrue: [Transcript cr; show: ('[JaEx] No version match: ', Smalltalk version). ^self].
 
 CurrentJEISarInstaller fileInMemberNamed: 'ttfInstaller.cs'.
