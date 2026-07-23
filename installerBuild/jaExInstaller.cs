@@ -4,7 +4,7 @@ matched isNil ifTrue: [Transcript cr; show: ('[JaEx] No version match: ', Smallt
 
 CurrentJEISarInstaller fileInMemberNamed: 'ttfInstaller.cs'.
 
-jaEx := 'JaEx-Squeak-MU.29.mcz'.
+jaEx := 'JaEx-Squeak-MU.33.mcz'.
 (matched notNil) ifTrue:[CurrentJEISarInstaller fileInMonticelloZipVersionNamed: jaEx].
 
 2 timesRepeat: [ActiveWorld project toggleShowWorldMainDockingBar].
