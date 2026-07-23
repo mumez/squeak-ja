@@ -16,7 +16,8 @@ stream := FileStream oldFileNamed: formTranslator.
 [NaturalLanguageFormTranslator loadFormsFrom: stream]
     ensure: [stream close].
 
-CurrentStVersion >= 4.4 ifTrue: [InternalTranslator mergeLegacyTranslators].
+(CurrentStVersion >= 4.4 and: [CurrentStVersion < 6.0])
+    ifTrue: [InternalTranslator mergeLegacyTranslators].
 
 "Install bitmap font"
 StrikeFontSet installExternalFontFileName6: fontFile encoding: JapaneseEnvironment leadingChar encodingName: #Japanese textStyleName: #DefaultMultiStyle.
