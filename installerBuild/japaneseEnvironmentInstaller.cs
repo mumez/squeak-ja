@@ -25,7 +25,8 @@ StrikeFontSet installExternalFontFileName6: fontFile encoding: JapaneseEnvironme
 "Set defaults"
 Locale currentPlatform: jpLocale.
 Locale switchToID: jpLocale localeID.
-StrikeFont setupDefaultFallbackFont.
+(CurrentStVersion < 6.0)
+    ifTrue: [StrikeFont setupDefaultFallbackFont].
 Project current updateLocaleDependents.
 Flaps disableGlobalFlaps: false.
 

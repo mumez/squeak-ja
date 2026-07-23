@@ -11,4 +11,5 @@
 'PatchesJa20130816-4.4.sar'
 'PatchesJa20211111-6.0.sar'
 'PatchesJa20211119-6.0.sar'
+'PatchesJa20260723-6.0.sar'
 )
