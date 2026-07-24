@@ -263,7 +263,8 @@ find and replace... 	検索して置換...
 
 browse package ''{1}''	''{1}'' パッケージのブラウズ
 browse documentation	ドキュメントのブラウズ
-Create 	作成 
+Create MVCProject	MVCプロジェクトを作成
+Create MorphicProject	Morphicプロジェクトを作成
 Squeak Inbox Talk (click to install)	Squeak Inbox Talk (インストール)
 Recover Method Versions	削除したメソッドをバージョンから復元
 Scale Factor	スケールファクター
