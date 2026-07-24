@@ -1,0 +1,1 @@
+'From Squeak4.1 of 17 April 2010 [latest update: #9957] on 25 April 2010 at 12:23:03 am'!!PluggableButtonSpec methodsFor: 'accessing' stamp: 'mu 4/25/2010 00:22'!label: aSymbolOrString	"Indicate the selector for retrieving the label"	aSymbolOrString isSymbol ifFalse: [^label := aSymbolOrString translated].	label := aSymbolOrString.! !
