@@ -261,4 +261,76 @@ edit	編集
 find... (f)	検索... (f)
 find and replace... 	検索して置換...
 
+browse package ''{1}''	''{1}'' パッケージのブラウズ
+browse documentation	ドキュメントのブラウズ
+Create 	作成 
+Squeak Inbox Talk (click to install)	Squeak Inbox Talk (インストール)
+Recover Method Versions	削除したメソッドをバージョンから復元
+Scale Factor	スケールファクター
+Other scale factor...	乗数を指定...
+Collapse all windows
+Find Workspace...
+Close all windows
+Close all windows but workspaces
+Close all windows without changes
+Send Feedback...
+copy as html	htmlとしてコピー
+break on entry	ブレークポイント
+Sort	ソート
+Select failures
+Select errors
+Select failures & errors
+Classes	クラス
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
