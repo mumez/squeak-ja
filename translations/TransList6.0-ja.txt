@@ -1,3 +1,3 @@
 #(
-'ja-20260713.translation'
+'ja-20260724.translation'
 )
