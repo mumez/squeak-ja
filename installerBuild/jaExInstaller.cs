@@ -9,6 +9,11 @@ jaEx := 'JaEx-Squeak-MU.34.mcz'.
 
 2 timesRepeat: [ActiveWorld project toggleShowWorldMainDockingBar].
 
+[Installer ensureRecentMetacello] on: Error do: [:ex | 
+	Transcript cr; show: 'Metacello installation failed: ', ex description.
+	Transcript cr; show: 'Try later: "Installer ensureRecentMetacello"'.
+].
+
 StringHolder new
 		acceptContents: ((CurrentJEISarInstaller memberNamed: 'ReadMe-Fonts.txt') contents convertFromWithConverter: (UTF8TextConverter new));
 		openLabel: 'ReadMe-Fonts'.
