@@ -1,0 +1,1 @@
+﻿'From Squeak6.0 of 8 June 2026 [latest update: #22156] on 14 July 2026 at 5:02:58 pm'!!ToolBuilder class methodsFor: 'instance creation' stamp: 'MU 7/14/2026 17:02'!open: aClass label: aString	^self default open: aClass label: aString asString translated! !

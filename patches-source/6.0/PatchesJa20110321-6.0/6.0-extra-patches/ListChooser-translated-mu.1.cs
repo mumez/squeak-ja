@@ -1,0 +1,1 @@
+﻿'From Squeak6.0 of 8 June 2026 [latest update: #22156] on 14 July 2026 at 4:56:26 pm'!!ListChooser methodsFor: 'accessing' stamp: 'MU 7/14/2026 16:56'!title: aString	title := aString asString translated.! !

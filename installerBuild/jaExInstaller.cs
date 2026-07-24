@@ -1,13 +1,18 @@
 "JaEx utilities"
-matched := #('4.1' '4.2' '4.3' '4.4' '5.3') detect: [:each | '*',each,'*' match: Smalltalk version] ifNone: [].
+matched := #('4.1' '4.2' '4.3' '4.4' '5.3' '6.0') detect: [:each | '*',each,'*' match: Smalltalk version] ifNone: [].
 matched isNil ifTrue: [Transcript cr; show: ('[JaEx] No version match: ', Smalltalk version). ^self].
 
 CurrentJEISarInstaller fileInMemberNamed: 'ttfInstaller.cs'.
 
-jaEx := 'JaEx-Squeak-mu.28.mcz'.
+jaEx := 'JaEx-Squeak-mu.35.mcz'.
 (matched notNil) ifTrue:[CurrentJEISarInstaller fileInMonticelloZipVersionNamed: jaEx].
 
 2 timesRepeat: [ActiveWorld project toggleShowWorldMainDockingBar].
+
+[Installer ensureRecentMetacello] on: Error do: [:ex | 
+	Transcript cr; show: 'Metacello installation failed: ', ex description.
+	Transcript cr; show: 'Try later: "Installer ensureRecentMetacello"'.
+].
 
 StringHolder new
 		acceptContents: ((CurrentJEISarInstaller memberNamed: 'ReadMe-Fonts.txt') contents convertFromWithConverter: (UTF8TextConverter new));
