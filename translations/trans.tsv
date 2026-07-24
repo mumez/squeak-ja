@@ -268,69 +268,19 @@ Squeak Inbox Talk (click to install)	Squeak Inbox Talk (インストール)
 Recover Method Versions	削除したメソッドをバージョンから復元
 Scale Factor	スケールファクター
 Other scale factor...	乗数を指定...
-Collapse all windows
-Find Workspace...
-Close all windows
-Close all windows but workspaces
-Close all windows without changes
-Send Feedback...
+Collapse all windows	すべてのウィンドウを最小化
+Find Workspace...	ワークスペースを検索
+Close all windows	すべてのウィンドウを閉じる
+Close all windows but workspaces	ワークスペース以外のすべてのウィンドウを閉じる
+Close all windows without changes	変更のないすべてのウィンドウを閉じる
+Send Feedback...	フィールドバックを送信...
 copy as html	htmlとしてコピー
 break on entry	ブレークポイント
 Sort	ソート
-Select failures
-Select errors
-Select failures & errors
+Select failures	失敗を選択
+Select errors	エラーを選択
+Select failures & errors	失敗とエラーを選択
 Classes	クラス
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

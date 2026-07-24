@@ -1,14 +1,14 @@
 ﻿<<フォントについて>>
 
-[埋め込みTrueTypeフォント]
+[デフォルトTrueTypeフォント]
 
-埋め込みTrueTypeフォントとして「Komatunaフォント」を利用しています。
-http://linuxplayers.g1.xrea.com/modified_fonts_01.html
+TrueTypeフォントとして「Komatunaフォント」を同梱しています。
+https://packages.debian.org/bookworm/fonts-komatuna
 ライセンスについてはアーカイブに同梱されるREADMEをご覧ください。
 
 [外部TrueTypeフォントの利用]
 
-Squeak 4.2から、外部のTrueTypeフォントを参照して利用することができます。
+外部のTrueTypeフォントを参照して利用することができます。
 1. Squeakの実行ディレクトリ
 2. 実行ディレクトリ下の'fonts'ディレクトリ
 3. 各OSのフォントディレクトリ
@@ -20,7 +20,8 @@ TTFileDescription installFamilyNamed: 'フォント名'.
 "例: メイリオを指定可能にする"
 TTFileDescription installFamilyNamed: 'Meiryo'.
 
-※外部のTrueTypeフォントを使う場合、ファイルの移動などでフォントを参照できなくなると、イメージが起動不能になることがあります。自己責任で使うようにしてください。ただしSqueak日本語版では、パッチを当てており、参照できなくともKomatunaフォントにフォールバックすることで、イメージを起動できるようになっています。
+※外部のTrueTypeフォントを使う場合、ファイルの移動などでフォントを参照できなくなると、イメージが起動不能になります。<イメージディレクトリ>/fonts/ にあるttfファイルを消さないようにしてください。
+※以前はTTフォントデータをイメージ内に埋め込むことが可能でしたが、Squeak 6.0からは参照のみとなっています。Komatunaも参照形式に変わったのでご注意ください。
 
 [フォント変更ユーティリティ]
 

@@ -1,5 +1,5 @@
 "Extracting"
-translationFile := 'ja-20211111.translation'.
+translationFile := 'ja-20260724.translation'.
 formTranslator := 'formTranslator_ja.bin'.
 fontFile := 'uJapaneseFont.out'.
 CurrentJEISarInstaller extractMember: translationFile.
