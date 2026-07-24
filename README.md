@@ -6,7 +6,7 @@
 
 ## インストール方法
 
-`installers/InstallJa20260724.sar` を、起動中のSqueakの画面にドラッグ&ドロップし、
+[`installers/InstallJa20260724.sar`](./installers/InstallJa20260724.sar) を、起動中のSqueakの画面にドラッグ&ドロップし、
 表示されるメニューから "install SAR" を選んでください。
 
 ## フォルダ構成
@@ -17,5 +17,3 @@
 - `patches-source/<version>/` — 各パッチアーカイブの元となるチェンジセット等のソース一式。
 - `translations/` — 日本語UI翻訳の元データ (`trans.tsv`)、生成された翻訳ファイル (`ja-<date>.translation`)、バージョンごとの一覧ファイル、リモートインストール用の `TransInstaller-ja.st`。
 - `docs/` — スクリーンショットなどのドキュメント資産。
-
----

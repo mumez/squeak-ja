@@ -6,7 +6,7 @@ Japanese localization patches and translations for [Squeak Smalltalk](https://sq
 
 ## Installation
 
-Drag and drop `installers/InstallJa20260724.sar` onto a running Squeak image window,
+Drag and drop [`installers/InstallJa20260724.sar`](./installers/InstallJa20260724.sar) onto a running Squeak image window,
 then choose "install SAR" from the menu that appears.
 
 ## Folder structure
