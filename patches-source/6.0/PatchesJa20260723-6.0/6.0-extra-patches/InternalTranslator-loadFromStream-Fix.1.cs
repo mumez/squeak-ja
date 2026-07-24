@@ -22,7 +22,5 @@ loadFromStream: stream
 	stream reset.
 	isFileIn
 		ifTrue: [self loadFromFileIn: (stream fileInAnnouncing: 'Loading ' translated, stream localName)]
-		ifFalse: [self loadFromRefStream: stream].
-		
-	self identityHash inspect! !
+		ifFalse: [self loadFromRefStream: stream].! !
 
