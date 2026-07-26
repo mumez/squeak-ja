@@ -6,7 +6,7 @@
 
 ## インストール方法
 
-[`installers/InstallJa20260724.sar`](./installers/InstallJa20260724.sar) を、起動中のSqueakの画面にドラッグ&ドロップし、
+[`installers/InstallJa20260726.sar`](./installers/InstallJa20260726.sar) を、起動中のSqueakの画面にドラッグ&ドロップし、
 表示されるメニューから "install SAR" を選んでください。
 
 ## フォルダ構成
