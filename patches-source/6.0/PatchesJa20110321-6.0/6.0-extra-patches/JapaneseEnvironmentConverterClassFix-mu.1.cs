@@ -6,7 +6,7 @@ Author:			Masashi Umezawa
 Fixed converter logic for VM using UTF8"!
 
 
-!JapaneseEnvironment class methodsFor: 'subclass responsibilities' stamp: 'mu 11/13/2021 00:02'!
+!JapaneseEnvironment class methodsFor: 'subclass responsibilities' stamp: 'mu 7/27/2026 22:13'!
 clipboardInterpreterClass
 	| platformName osVersion |
 	platformName := Smalltalk platformName.
