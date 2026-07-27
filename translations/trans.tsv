@@ -261,7 +261,8 @@ edit	編集
 find... (f)	検索... (f)
 find and replace... 	検索して置換...
 
-browse package ''{1}''	''{1}'' パッケージのブラウズ
+browse package	パッケージのブラウズ
+browse package '{1}'	'{1}' パッケージのブラウズ
 browse documentation	ドキュメントのブラウズ
 Create MVCProject	MVCプロジェクトを作成
 Create MorphicProject	Morphicプロジェクトを作成
@@ -282,6 +283,16 @@ Select failures	失敗を選択
 Select errors	エラーを選択
 Select failures & errors	失敗とエラーを選択
 Classes	クラス
+extensions	拡張
+dependencies	依存
+inverted dependencies	逆依存
+extensions local to '{1}'	'{1}'にローカルな拡張
 
+fileOut selected version	選択したバージョンをファイルアウト
+
+Do you really want to delete the project\{1}\and all its content?	本当に\{1}\プロジェクトとその内容を削除しますか?
+
+add preamble... (p)	preambleの追加(p)...
+edit preamble... (p)	preambleの編集(p)...
 
 
