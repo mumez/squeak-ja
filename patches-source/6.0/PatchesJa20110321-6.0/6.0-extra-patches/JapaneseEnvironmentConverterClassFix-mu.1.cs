@@ -15,9 +15,10 @@ clipboardInterpreterClass
 		ifTrue: [^NoConversionClipboardInterpreter].
 	platformName = 'Win32' ifTrue: [^UTF8ClipboardInterpreter].
 	platformName = 'Mac OS' 
-		ifTrue: [ | vmVersion |
-			vmVersion := (MacUnicodeInputInterpreter new majorMinorBuildFrom: Smalltalk vmVersion) first.
-			^(vmVersion asInteger >= 4) ifTrue: [MacUTF8ClipboardInterpreter] ifFalse: [MacShiftJISClipboardInterpreter]].
+		ifTrue: [^((Smalltalk osVersion indexOf: $.) > 4 "i.e. not 9xx.n, but 10xx.n, 11xx.n etc"
+			and: [(Smalltalk getSystemAttribute: 3) isNil])
+				ifTrue: [UTF8ClipboardInterpreter]
+				ifFalse: [MacShiftJISClipboardInterpreter]].
 	^platformName = 'unix' 
 		ifTrue: 
 			[(ShiftJISTextConverter encodingNames includes: X11Encoding encoding) 
